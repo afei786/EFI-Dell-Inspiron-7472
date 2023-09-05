@@ -1,4 +1,4 @@
-# EFI-Dell-Inspiron-7472 OpenCore配置文件
+# Dell Inspiron 7472 DW1560 OC文件
 
 ## 安装配置
 
@@ -25,7 +25,7 @@
 
 * CPU：i5-8250U
 
-* 声卡：ALC256，声卡ID使用69（十进制），驱动文件名称为ALC256.kext，最新版可在此下载：https://github.com/ic005k/ALC256
+* 声卡：ALC256，声卡ID使用69（十进制），驱动文件名称为ALC256.kext，最新版可在此下载[https://github.com/ic005k/ALC256]
 
 * 内存：8G
 
@@ -39,4 +39,6 @@
 
 ## 参考
 
-* 本项目参考了 https://github.com/ic005k/DELL7472 黑苹果项目，感谢ic005k大佬的付出，唯一改动是更换DW1560网卡，可以正常使用WiFi，蓝牙，隔空投送，其余均未改动
+* 本项目参考了ic005k[https://github.com/ic005k/DELL7472] 黑苹果项目，感谢ic005k大佬的付出
+* 唯一改动是拆机更换无线网卡Dell DW1560，可以正常使用WiFi，蓝牙，隔空投送，其余均未改动
+* 无线网卡驱动参考了b站博主853491的文章中的DW1560驱动方法[https://www.bilibili.com/read/cv15626222/]
